@@ -10,3 +10,6 @@ deb http://mirrors.aliyun.com/ubuntu/ focal-security main restricted universe mu
 
 # show 配置
 sudo docker run --rm --gpus all nvidia/cuda:11.0-base nvidia-smi
+
+# cuda
+https://developer.nvidia.com/cuda-toolkit-archive
