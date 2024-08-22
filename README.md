@@ -34,3 +34,27 @@ To install the driver using this installer, run the following command, replacing
 
 Logfile is /var/log/cuda-installer.log
 
+# driver install log
+[INFO]: Setting silent=true
+[INFO]: Setting driver=true
+[INFO]: Overriding driver check
+[INFO]: Driver installation detected by command: apt list --installed | grep -e nvidia-driver-[0-9][0-9][0-9] -e nvidia-[0-9][0-9][0-9]
+[INFO]: Checking compiler version...
+[INFO]: gcc location: /usr/bin/gcc
+
+[INFO]: gcc version: gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04)
+
+[INFO]: Initializing menu
+[INFO]: nvidia-fs.setKOVersion(2.15.1)
+[INFO]: Silent install option: skipping toolkit
+[INFO]: Silent install option: skipping toolkit
+[INFO]: Silent install option: skipping toolkit
+[INFO]: Components to install:
+[INFO]: Driver
+[INFO]: 530.30.02
+[INFO]: Executing NVIDIA-Linux-x86_64-530.30.02.run --ui=none --no-questions --accept-license --disable-nouveau --no-cc-version-check --install-libglvnd  2>&1
+[INFO]: Finished with code: 256
+[ERROR]: Install of driver component failed. Consult the driver log at /var/log/nvidia-installer.log for more details.
+[ERROR]: Install of 530.30.02 failed, quitting
+
+
